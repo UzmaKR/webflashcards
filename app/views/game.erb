@@ -3,7 +3,7 @@
   <%= @card.front %>
   
 
-  <form action="/play" method="post">
+  <form id = "answer_form" action="/play" method="post">
   Answer:<input type="text" name="guess">
   <input type="hidden" name="answer" value="<%= @card.back %>">
    <input type="submit" value="Guess!!">

@@ -1,4 +1,4 @@
-enable :sessions
+ enable :sessions
 
 get '/' do
   session.clear if session[:round_id]
